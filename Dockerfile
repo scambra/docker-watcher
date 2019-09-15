@@ -26,7 +26,7 @@ RUN \
  pip3 install --no-cache-dir -U \
 	python-Levenshtein && \
  echo "**** install watcher ****" && \
- git clone https://github.com/nosmokingbandit/watcher3 /app/watcher && \
+ git clone https://github.com/barbequesauce/Watcher3 /app/watcher && \
  echo "**** cleanup ****" && \
  apk del --purge \
 	build-dependencies && \
